@@ -1,5 +1,4 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { AboutComponent } from './components/about/about.component';
@@ -10,7 +9,7 @@ import { ContactsComponent } from './components/contacts/contacts.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, IntroComponent, AboutComponent, ExperienceComponent, EducationSkillsComponent, SkillsComponent, ContactsComponent],
+  imports: [HeaderComponent, IntroComponent, AboutComponent, ExperienceComponent, EducationSkillsComponent, SkillsComponent, ContactsComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
