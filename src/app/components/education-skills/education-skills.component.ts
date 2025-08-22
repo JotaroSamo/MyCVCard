@@ -13,6 +13,8 @@ export class EducationSkillsComponent {
   @Input() year: string = '2024';
   @Input() university: string = 'Полесский государственный университет, Пинск';
   @Input() faculty: string = 'Инженерный, Информационные системы и технологии';
+  @Input() universityLogoUrl: string = '/university.png';
+  @Input() facultyLogoUrl: string = '/faculty.png';
   @Input() skills: string[] = ['SQL','PostgreSQL','HTML','C#','ASP.NET','.NET','Entity Framework','RabbitMQ','Angular','Docker','Git','TypeScript','GraphQL','REST API'];
 }
 

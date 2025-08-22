@@ -2,6 +2,14 @@
 .container { max-width: 960px; margin: 0 auto; color: var(--primary); opacity: 0; animation: fadeIn 600ms ease forwards 400ms; }
 .title { margin: 0 0 12px 0; font-size: 1.75rem; font-weight: 700; }
 .entry { opacity: 0.95; }
+.logos { display: flex; gap: 10px; align-items: center; margin-bottom: 8px; }
+.logo {
+  width: 28px; height: 28px; border-radius: 8px; object-fit: cover;
+  border: 1px solid color-mix(in srgb, var(--accent) 50%, transparent);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.28);
+  backdrop-filter: blur(2px);
+}
+.text { display: grid; gap: 2px; }
 .degree { font-weight: 700; margin-bottom: 4px; }
 .line { opacity: 0.85; }
 /* Skills удалены — вынесены в отдельный компонент */
