@@ -1,11 +1,12 @@
 <header class="site-header">
   <nav class="nav">
-    <a href="#intro" class="nav-link">Главная</a>
-    <a href="#about" class="nav-link">Обо мне</a>
-    <a href="#experience" class="nav-link">Опыт</a>
-    <a href="#education" class="nav-link">Образование</a>
-    <a href="#skills" class="nav-link">Навыки</a>
-    <a href="#contacts" class="nav-link">Контакты</a>
+    <a href="#intro" class="nav-link">{{ 'nav.home' | t }}</a>
+    <a href="#about" class="nav-link">{{ 'nav.about' | t }}</a>
+    <a href="#experience" class="nav-link">{{ 'nav.experience' | t }}</a>
+    <a href="#education" class="nav-link">{{ 'nav.education' | t }}</a>
+    <a href="#skills" class="nav-link">{{ 'nav.skills' | t }}</a>
+    <a href="#contacts" class="nav-link">{{ 'nav.contacts' | t }}</a>
   </nav>
+  <button class="lang" (click)="i18n.toggleLanguage()">{{ i18n.language() === 'ru' ? 'EN' : 'RU' }}</button>
 </header>
 
