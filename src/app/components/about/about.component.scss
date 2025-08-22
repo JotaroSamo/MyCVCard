@@ -1,0 +1,29 @@
+.about {
+  background: transparent;
+  padding: 32px 24px 64px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  color: var(--primary);
+  opacity: 0;
+  transform: translateY(10px);
+  animation: appear 600ms ease forwards 120ms;
+}
+
+.title {
+  margin: 0 0 12px 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.text {
+  line-height: 1.7;
+  color: color-mix(in srgb, var(--primary) 88%, transparent);
+}
+
+@keyframes appear {
+  to { opacity: 1; transform: translateY(0); }
+}
+

@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  font-family: 'Nunito', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+.rootfix {}
+:root {
+  --primary: #ffffff;
+  --accent: #0a5300;
+  --accent-gradient: linear-gradient(90deg, #ffffff 0%, #00a86b 100%);
+}
+
+/* Плавный скролл для якорей */
+html { scroll-behavior: smooth; }

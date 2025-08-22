@@ -1,0 +1,12 @@
+.edu { background: transparent; padding: 24px 24px 72px; }
+.container { max-width: 960px; margin: 0 auto; color: var(--primary); 
+    animation: appear 600ms ease forwards 120ms;}
+.title { margin: 0 0 12px 0; font-size: 1.75rem; font-weight: 700; }
+.entry { opacity: 0.95; }
+.degree { font-weight: 700; margin-bottom: 4px; }
+.line { opacity: 0.85; }
+/* Skills удалены — вынесены в отдельный компонент */
+
+@keyframes appear {
+    to { opacity: 1; transform: translateY(0); }
+  }

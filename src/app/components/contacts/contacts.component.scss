@@ -1,0 +1,14 @@
+.contacts { background: transparent; padding: 24px 24px 96px; }
+.container { max-width: 960px; margin: 0 auto; color: var(--primary); 
+    animation: appear 600ms ease forwards 120ms;}
+.title { margin: 0 0 12px 0; font-size: 1.75rem; font-weight: 700; }
+.list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.row { display: flex; gap: 12px; align-items: baseline; }
+.label { opacity: 0.7; width: 110px; flex: 0 0 110px; }
+.value { color: var(--primary); text-decoration: none; position: relative; }
+.value::after { content: ""; position: absolute; left: 0; right: 0; bottom: -4px; height: 2px; background: var(--accent-gradient); transform: scaleX(0); transform-origin: left; transition: transform .3s ease; }
+.value:hover::after { transform: scaleX(1); }
+
+@keyframes appear {
+    to { opacity: 1; transform: translateY(0); }
+  }
