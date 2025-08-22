@@ -1,5 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ContentService } from '../../services/content.service';
 import { TranslatePipe } from "../../pipes/translate.pipe";
 
 @Component({
@@ -10,11 +11,7 @@ import { TranslatePipe } from "../../pipes/translate.pipe";
   styleUrl: './intro.component.scss'
 })
 export class IntroComponent {
-  @Input() name: string = 'Александр Самощук';
-  @Input() role: string = '.NET Developer';
-  @Input() experienceYears: number = 5;
-  @Input() age: number = 28;
-  @Input() photoUrl: string = '/avatar.jpg';
+  constructor(public content: ContentService) {}
 }
 
 

@@ -15,6 +15,8 @@ export class I18nService {
       'nav.skills': 'Навыки',
       'nav.contacts': 'Контакты',
 
+  
+
       'sections.about.title': 'Обо мне',
       'sections.experience.title': 'Опыт работы',
       'sections.education.title': 'Образование',
@@ -22,6 +24,9 @@ export class I18nService {
       'sections.contacts.title': 'Контакты',
 
       'intro.badge.ready': 'Готов к работе',
+      'intro.experiens': 'Опыт',
+      'intro.age': 'Возраст',
+      'intro.years': 'года',
 
       'contacts.phone': 'Телефон',
       'contacts.telegram': 'Telegram',
@@ -36,6 +41,8 @@ export class I18nService {
       'nav.skills': 'Skills',
       'nav.contacts': 'Contacts',
 
+
+
       'sections.about.title': 'About me',
       'sections.experience.title': 'Work experience',
       'sections.education.title': 'Education',
@@ -43,6 +50,9 @@ export class I18nService {
       'sections.contacts.title': 'Contacts',
 
       'intro.badge.ready': 'Available for work',
+      'intro.experiens': 'Experience',
+      'intro.age': 'Age',
+      'intro.years': 'years',
 
       'contacts.phone': 'Phone',
       'contacts.telegram': 'Telegram',

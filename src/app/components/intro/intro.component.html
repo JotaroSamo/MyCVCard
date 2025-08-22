@@ -1,17 +1,17 @@
 <section class="intro">
   <div class="intro-content">
     <div class="photo-wrap">
-      <img class="photo" [src]="photoUrl" alt="Фото {{ name }}">
+      <img class="photo" [src]="content.content().intro.photoUrl" alt="Фото {{ content.content().intro.name }}">
       <span class="badge">{{ 'intro.badge.ready' | t }}</span>
     </div>
     <div class="text">
-      <h1 class="name">{{ name }}</h1>
+      <h1 class="name">{{ content.content().intro.name }}</h1>
       <div class="meta">
-        <span class="role">{{ role }}</span>
+        <span class="role">{{ content.content().intro.role }}</span>
         <span class="dot">•</span>
-        <span class="xp">Опыт: {{ experienceYears }} года</span>
+        <span class="xp">{{ 'intro.experiens' | t }}: {{ content.content().intro.experienceYears }} {{ 'intro.years' | t }}</span>
         <span class="dot">•</span>
-        <span class="age">Возраст: {{ age }}</span>
+        <span class="age">{{ 'intro.age' | t }}: {{ content.content().intro.age }}</span>
       </div>
     </div>
   </div>

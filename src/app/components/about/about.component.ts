@@ -1,6 +1,7 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslatePipe } from "../../pipes/translate.pipe";
+import { ContentService } from '../../services/content.service';
 
 @Component({
   selector: 'app-about',
@@ -10,7 +11,7 @@ import { TranslatePipe } from "../../pipes/translate.pipe";
   styleUrl: './about.component.scss'
 })
 export class AboutComponent {
-  @Input() text: string = 'Коротко расскажите о себе: ключевые навыки, сильные стороны, подход к работе и цели. Текст можно заменить на ваш.';
+  constructor(public content: ContentService) {}
 }
 
 

@@ -3,13 +3,13 @@
     <h2 class="title">{{ 'sections.education.title' | t }}</h2>
     <div class="entry">
       <div class="logos">
-        <img class="logo" [src]="universityLogoUrl" alt="Логотип университета" />
-        <img class="logo" [src]="facultyLogoUrl" alt="Логотип факультета" />
+        <img class="logo" [src]="content.content().education.universityLogoUrl" alt="Логотип университета" />
+        <img class="logo" [src]="content.content().education.facultyLogoUrl" alt="Логотип факультета" />
       </div>
       <div class="text">
-        <div class="degree">{{ degree }}</div>
-        <div class="line">{{ year }} · {{ university }}</div>
-        <div class="line">{{ faculty }}</div>
+        <div class="degree">{{ content.content().education.degree }}</div>
+        <div class="line">{{ content.content().education.year }} · {{ content.content().education.university }}</div>
+        <div class="line">{{ content.content().education.faculty }}</div>
       </div>
     </div>
   </div>

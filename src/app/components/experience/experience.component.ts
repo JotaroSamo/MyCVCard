@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslatePipe } from "../../pipes/translate.pipe";
+import { ContentService } from '../../services/content.service';
 
 @Component({
   selector: 'app-experience',
@@ -9,6 +10,6 @@ import { TranslatePipe } from "../../pipes/translate.pipe";
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.scss'
 })
-export class ExperienceComponent {}
+export class ExperienceComponent { constructor(public content: ContentService) {} }
 
 
