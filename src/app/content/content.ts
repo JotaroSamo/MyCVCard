@@ -48,16 +48,16 @@ export const CONTENT: Record<LanguageCode, SiteContent> = {
       role: '.NET Developer',
       experienceYears: 2,
       age: 23,
-      photoUrl: '/avatar.jpg',
+      photoUrl: '/avatar.png',
     },
     aboutText:
       'Middle .NET Developer с опытом 2 года разработки API, микросервисов, а также интеграции фронтенда и бэкенда. Создаю решения, которые оптимизируют процессы, повышают стабильность систем и улучшают пользовательский опыт.\n\nУверенно работаю с современными технологиями: C#, ASP.NET, Entity Framework Core, Angular, GraphQL, WebSocket, RESTful API, Docker, MassTransit, RabbitMQ, Redis, MongoDB, а также инструментами мониторинга, OpenTelemetry и Grafana. Стремлюсь создавать масштабируемые и надежные решения для бизнеса.',
     experience: [
       {
-        when: 'Октябрь 2024 — настоящее время · 11 месяцев',
+        when: 'Октябрь 2024 — октябрь 2025 · 1 год',
         org: '«Военная академия» ВА РБ · Минск',
         sector: 'Государственные организации',
-        role: '.NET Developer',
+        role: '.NET Developer (Middle)',
         bullets: [
           'Разработал микросервисы с MassTransit, RabbitMQ, Elasticsearch, Redis, MongoDB.',
           'Оптимизировал PostgreSQL: индексы, GIN полнотекст, ускорение запросов.',
@@ -71,7 +71,7 @@ export const CONTENT: Record<LanguageCode, SiteContent> = {
       {
         when: 'Июнь 2023 — Май 2024 · 1 год',
         org: 'Полесский государственный университет · Пинск',
-        role: '.NET Developer',
+        role: '.NET Developer (Junior)',
         bullets: [
           'ПО и Telegram‑боты для университета: информирование абитуриентов и студентов.',
           'Оптимизация проектов: стабильность и удобство систем.',
@@ -87,7 +87,7 @@ export const CONTENT: Record<LanguageCode, SiteContent> = {
       universityLogoUrl: '/university.png',
       facultyLogoUrl: '/faculty.png',
     },
-    skills: ['SQL','PostgreSQL','HTML','C#','ASP.NET','.NET','Entity Framework','RabbitMQ','Angular','Docker','Git','TypeScript','GraphQL','REST API'],
+    skills: ['SQL','PostgreSQL','HTML','C#','ASP.NET','.NET','Entity Framework','RabbitMQ','Angular','Docker','Git','TypeScript','GraphQL','REST API','MassTransit', 'Redis' ,'SignalR', 'OpenTelemetry', 'Grafana', 'Serilog', 'MinIO', 'Redis', 'MongoDB', 'Elasticsearch'],
     contacts: {
       phone: '+375295580632',
       telegram: '@dk_tengen',
@@ -101,16 +101,16 @@ export const CONTENT: Record<LanguageCode, SiteContent> = {
       role: '.NET Developer',
       experienceYears: 2,
       age: 23,
-      photoUrl: '/avatar.jpg',
+      photoUrl: '/avatar.png',
     },
     aboutText:
       'Middle .NET Developer with 2 years of experience building APIs and microservices, integrating front‑end and back‑end. I deliver solutions that optimize processes, increase system stability, and improve user experience.\n\nConfident with C#, ASP.NET, Entity Framework Core, Angular, GraphQL, WebSocket, RESTful API, Docker, MassTransit, RabbitMQ, Redis, MongoDB, and monitoring tools like OpenTelemetry and Grafana. Focused on scalable and reliable business solutions.',
     experience: [
       {
-        when: 'Oct 2024 — Present · 11 months',
+        when: 'Oct 2024 — Oct 2025 · 1 year',
         org: 'Military Academy · Minsk',
         sector: 'Government organizations',
-        role: '.NET Developer',
+        role: '.NET Developer (Middle)',
         bullets: [
           'Built microservices with MassTransit, RabbitMQ, Elasticsearch, Redis, MongoDB.',
           'Optimized PostgreSQL: indexes, GIN full‑text, faster queries.',
@@ -124,8 +124,8 @@ export const CONTENT: Record<LanguageCode, SiteContent> = {
       {
         when: 'Jun 2023 — May 2024 · 1 year',
         org: 'Polessky State University · Pinsk',
-        role: '.NET Developer',
-        bullets: [
+        role: '.NET Developer (Junior)',
+        bullets: [ 
           'Developed software and Telegram bots for the university.',
           'Improved existing projects: stability and usability.',
           'Enhanced internal communications and information access.',
@@ -140,7 +140,7 @@ export const CONTENT: Record<LanguageCode, SiteContent> = {
       universityLogoUrl: '/university.png',
       facultyLogoUrl: '/faculty.png',
     },
-    skills: ['SQL','PostgreSQL','HTML','C#','ASP.NET','.NET','Entity Framework','RabbitMQ','Angular','Docker','Git','TypeScript','GraphQL','REST API'],
+    skills: ['SQL','PostgreSQL','HTML','C#','ASP.NET','.NET','Entity Framework','RabbitMQ','Angular','Docker','Git','TypeScript','GraphQL','REST API', 'MassTransit', 'Redis' ,'SignalR', 'OpenTelemetry', 'Grafana', 'Serilog', 'MinIO', 'Redis', 'MongoDB', 'Elasticsearch'],
     contacts: {
       phone: '+375295580632',
       telegram: '@dk_tengen',
